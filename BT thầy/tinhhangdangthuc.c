@@ -9,12 +9,13 @@ int main()
     printf("nhap b= ");scanf("%lf",&b);
     printf("nhap c= ");scanf("%lf",&c);
     if(a!=0){d=b*b-4*a*c;
-        if(d>0){
-            printf("x1=%lf và x2=%lf",((-b)+ sqrt(d))/(2*a),((-b)-sqrt(d))/(2*a));
-        }
-        else if (d=0){printf("x=%lf",(-b)/(2*a));
+        if(d>=0){
+                if (d>0) {printf("x1=%lf và x2=%lf",((-b)+ sqrt(d))/(2*a),((-b)-sqrt(d))/(2*a));
+            }
+                else {printf("x=%lf",(-b)/(2*a));
             
-        }
+            }
+        }    
         else {printf("vô nghiệm");}
         
     }
