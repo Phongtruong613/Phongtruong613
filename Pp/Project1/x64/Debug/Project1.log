@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\Pp\Pp\Project1\Source.cpp(17,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Pp\Pp\Project1\Source.cpp(26,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Pp\Pp\Project1\Source.cpp(111,13): warning C4013: 'gets' undefined; assuming extern returning int
+  Project1.vcxproj -> D:\Pp\Pp\x64\Debug\Project1.exe
